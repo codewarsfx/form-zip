@@ -114,6 +114,7 @@ select:disabled {
 .form-group--btn {
 	display: flex;
 	flex-direction: column;
+    align-items: center;
 	gap: 10px;
 }
 
@@ -127,6 +128,8 @@ select:disabled {
 	border: none;
 	text-transform: uppercase;
 	cursor: pointer;
+	max-width: fit-content;
+	text-decoration: none;
 }
 .form-btn:hover {
 	background-color: rgb(51, 134, 243);
