@@ -136,24 +136,38 @@ select:disabled {
 	margin-top: 2.5em;
 	background-color: #eee;
 	border: 1px solid #ddd;
-	height: 150px;
+	height: 200px;
 	border-radius: 1em;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
+	padding: .5em;
+	gap: 10px;
 }
 
+
+.file-text{
+	font-weight: bold;
+	font-size: 15px;
+	color: #666;
+}
 .radio-group{
     display: flex;
+}
+
+.file-section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
 }
 
 .form-group--radio{
     margin-top: 3.5em;
 }
 
-.hidden {
-	display: none;
-}
+
 
 .floating{
     position: absolute;
